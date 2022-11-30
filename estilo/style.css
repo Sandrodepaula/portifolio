@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Rubik:wght@400;700 & display=swap');
+
+:root {
+    --fonte-normal: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-padrão: 'Rubik', sans-serif;
+    --cor01: #023535;
+    --cor02: #015958;
+    --cor03: #008F8C;
+    --cor04: #0CABA8;
+    --cor05: #000000;
+}
+*{
+    font-family: var(--fonte-padrão);
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    width: 80%;
+    height: 98vh;
+    margin: 0 auto;
+    
+}
+
+
+header{
+    background-image: linear-gradient(to bottom right, #023535 15%,#015958 30%,#008f8c, rgba(14, 2, 2, 0.925));
+    padding: 10px;
+    display: inline-block;
+    width: 90%;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+}
+.menu > a{
+    color: var(--cor05);
+    text-decoration: none;
+    margin-left: 10px;
+    
+    
+}
+a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    color: gray;
+    background-color: aquamarine;
+}
+.busca {
+    display: inline-flex;
+    margin-left: 10px;
+}
+form > input{
+    width: 145px;
+    margin-left: 5px;
+
+}
+
+
+main{
+    color:white;
+    height: 600px;  
+}
+main > p{
+    display: inline-block;
+    width: 50%;
+    text-indent: 1.5em;
+    text-size-adjust: 50%;
+}
+main#img001 {
+    background-image: url('../imagens/img002.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+footer {
+    background-color: var(--cor05);
+    color: aliceblue;
+    text-align: center;
+}
