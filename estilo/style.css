@@ -23,15 +23,12 @@ body {
     
 }
 
-
 header{
     width: 98%;
     padding: 10px;
     margin: 6px;
     background-image: linear-gradient(to bottom right, #023535 15%,#015958 30%,#008f8c, rgba(14, 2, 2, 0.925));
-    display: inline-block;
-    
-    
+    display: inline-block;   
 }
 
 .logo{
@@ -42,14 +39,26 @@ header{
     color: var(--cor05);
     text-decoration: none;
     margin-left: 10px;
-    
+}
+
+input{
+    height: 23px;
+    width: 200px;
+    background-color: #a5a5a5;
+    padding: 0px 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    color: #000000;
+    border: 2px solid #2d2d2d;   
     
 }
+
 a:hover {
     font-weight: bold;
-    text-decoration: underline;
+    
     color: gray;
-    background-color: aquamarine;
+    background-color: white;
 }
 .busca {
     display: inline-flex;
@@ -68,8 +77,8 @@ main{
 }
 main > p{
     display: inline-block;
-    width: 50%;
-    text-indent: 1.5em;
+    width: 500px;
+    text-indent: 1.7em;
     text-size-adjust: 50%;
 }
 main#img001 {
