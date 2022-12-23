@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Rubik:wght@400;700 & display=swap');
+body{
+    font-family: 'Rubik', sans-serif;
+    max-width: 1500px;
+    background-color: rgb(0, 0, 0);
+    height: 90vh; 
+    margin: 10px 10px;
+}
+header{
+    width: 96vw;
+    padding: 20px;   
+    background-color: rgba(88, 86, 86, 0.616);
+    display: inline-block;   
+    color: white;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+}
+.menu > a{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px; 
+    
+}
+
+.menu > a:hover {
+    font-weight: bold;   
+    color: gray;
+    background-color: white;
+}
+input{
+    height: 23px;
+    width: 200px;
+    background-color: #a5a5a5;
+    padding: 0px 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    color: #000000;
+    border: 2px solid #2d2d2d;   
+    
+}
+
+.busca {
+    display: inline-flex;
+    margin-left: 10px;
+}
+form > input{
+    width: 145px;
+    margin-left: 5px;
+
+}
+
+main{
+    color:white;
+    height: 600px;
+    border: 1px solid white;
+    width: 100%;
+    margin: 0 30px;
+}
+.banners > a{
+    text-decoration: none;
+    display: flexbox;
+}
+a > img {
+    border: 2px solid black;        
+    padding: 5px;
+    margin: 10px;
+    width: 250px;
+    height: 370px;
+            
+}
