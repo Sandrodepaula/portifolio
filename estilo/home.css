@@ -24,12 +24,15 @@ body {
 header{
     width: 100vw;
     padding: 20px;   
-    background-color: rgba(88, 86, 86, 0.616);
+    background-color: #027344;
     display: inline-block;   
     color: white;
 }
-
+img{
+    border-radius: 3px;
+}
 .logo{
+    
     width: 100px;
     height: 30px;
 }
@@ -47,13 +50,13 @@ header{
 input{
     height: 23px;
     width: 200px;
-    background-color: #a5a5a5;
+    background-color: #ffffff;
     padding: 0px 5px;
     box-sizing: border-box;
     border-radius: 5px;
     outline: none;
     color: #000000;
-    border: 2px solid #2d2d2d;   
+    border: 1px solid black;   
     
     
 }
@@ -75,11 +78,13 @@ form > input{
 
 main{
 
-    color:white;
+    color:#027344;
     height: 600px;
-    border: 1px solid white;
-    width: 99%;
-    margin: 2px 5px;
+    width: 100%;
+    margin: 2px 50px;
+}
+h1{
+    
 }
 main > p{
     display: inline-block;
@@ -88,14 +93,16 @@ main > p{
     text-size-adjust: 50%;
     text-align: center;
     font-size: 18px;
-    margin-left: 5px;
-    background-color: #2d2d2d;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.445);
 }
 main#imagem{
  
     background-image: url('../imagens/img002.jpg');
     background-position: right  ;
     background-repeat: no-repeat;
+    background-color: white;
 }
 footer {
     background-color: var(--cor05);
