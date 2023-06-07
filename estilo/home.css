@@ -5,25 +5,24 @@
 :root {
     --fonte-normal: Arial, Verdana, Helvetica, sans-serif;
     --fonte-padrão: 'Rubik', sans-serif;
-    --cor01: #023535;
-    --cor02: #015958;
-    --cor03: #008F8C;
-    --cor04: #0CABA8;
-    --cor05: #000000;
+    
 }
-*{
+*html, body{
     font-family: var(--fonte-padrão);
+    padding: 0;
+    margin: 0;
+
 }
 
 body {
-    max-width: 1500px;
+    width: 100vw;
     background-color: rgb(0, 0, 0);
     height: 90vh; 
-    margin: 10px 10px;  
+    margin: 0; 
 }
 
 header{
-    width: 96vw;
+    width: 100vw;
     padding: 20px;   
     background-color: rgba(88, 86, 86, 0.616);
     display: inline-block;   
@@ -32,12 +31,17 @@ header{
 
 .logo{
     width: 100px;
-    height: auto;
+    height: 30px;
+}
+.menu{
+    font-size: 20px;
+    display: inline-block; 
 }
 .menu > a{
     color: white;
     text-decoration: none;
-    margin-left: 10px;  
+    margin-left: 30px;
+     
 }
 
 input{
@@ -50,6 +54,7 @@ input{
     outline: none;
     color: #000000;
     border: 2px solid #2d2d2d;   
+    
     
 }
 
@@ -69,22 +74,27 @@ form > input{
 }
 
 main{
+
     color:white;
     height: 600px;
     border: 1px solid white;
-    width: 100%;
-    margin: 0 30px;
+    width: 99%;
+    margin: 2px 5px;
 }
 main > p{
     display: inline-block;
-    width: 500px;
+    width: 30%;
     text-indent: 1.7em;
     text-size-adjust: 50%;
     text-align: center;
+    font-size: 18px;
+    margin-left: 5px;
+    background-color: #2d2d2d;
 }
-main#img001 {
+main#imagem{
+ 
     background-image: url('../imagens/img002.jpg');
-    background-position: right;
+    background-position: right  ;
     background-repeat: no-repeat;
 }
 footer {
