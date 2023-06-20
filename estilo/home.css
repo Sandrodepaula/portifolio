@@ -7,38 +7,33 @@
     --fonte-padrão: 'Rubik', sans-serif;
     
 }
-*html, body{
+*{
     font-family: var(--fonte-padrão);
     padding: 0;
     margin: 0;
-
-}
-
-body {
-    width: 100vw;
-    background-color: rgb(0, 0, 0);
-    height: 90vh; 
-    margin: 0; 
 }
 
 header{
     width: 100vw;
-    padding: 20px;   
-    background-color: #027344;
-    display: inline-block;   
+    padding: 10px;   
+    background-color: #027344;  
     color: white;
+    
 }
 img{
-    border-radius: 3px;
-}
-.logo{
-    
     width: 100px;
     height: 30px;
+    border-radius: 3px;
+}
+
+.center{
+    display: flex;
+    
 }
 .menu{
+    display: flex;
+    align-items: center;
     font-size: 20px;
-    display: inline-block; 
 }
 .menu > a{
     color: white;
@@ -62,9 +57,12 @@ input{
 }
 
 a:hover {
+    
     font-weight: bold;   
     color: gray;
     background-color: white;
+    transition: 0.7s;
+    border-radius: 2px;
 }
 .busca {
     display: inline-flex;
@@ -77,7 +75,6 @@ form > input{
 }
 
 main{
-
     color:#027344;
     height: 600px;
     width: 100%;
