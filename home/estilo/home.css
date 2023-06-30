@@ -90,7 +90,7 @@ section{
     align-items: center;
     width: 180px;
     height: 48px;
-    
+    margin-top: 50px;
     font-size: 19px;
     color: #fff;
     border-radius: 48px;
@@ -226,6 +226,21 @@ section{
     max-width: 360px;
     object-fit: cover;
 }
+@media screen and (max-width: 1200px) {
+    .home-img{
+        width: 340px;
+        height: 340px;
+    }
+    .circulo .imagem{
+    width: 320px;
+    height: 320px;
+    }
+    .home-img .circulo::after{ 
+    width: 320px;
+    height: 320px;
+    }
+}
+    
 
 @keyframes slideTop {
     0% {
