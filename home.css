@@ -128,7 +128,6 @@ section{
     height: 600px;
 }
 
-<<<<<<< HEAD
 .home-img{
     width: 410px;
     height: 410px;
@@ -215,10 +214,3 @@ section{
         transform: rotate(360deg    );
     }
 }
-
-=======
-footer {
-    color: aliceblue;
-    text-align: center;
-}
->>>>>>> parent of 3d95d3e (finalização da tela principal)
