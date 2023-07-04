@@ -42,38 +42,28 @@ header{
     text-decoration: none;
     color: #fff;
     font-weight: 600;
-    opacity: 0;
-    animation: slideTop 1s ease forwards;
+    pointer-events: none;
 }
 
 .menu a {
-    display: inline-block;
     font-size: 18px;
     font-weight: 500;
     color: #fff;
     text-decoration: none;
     margin-left: 35px;
-    opacity: 0;
-    animation: slideTop .5s ease forwards; 
-    animation-delay: calc(.2s * var(--i));
+     
 }
 
 section{
     width: 100%;
     height: 100vh;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 70px 10% 0;
-}
-.texto{
-    max-width: 550px;
-    margin-left: -30px;
+    padding: 0 10%;
 }
 .texto h1 {
     font-size: 56px;
     font-weight: 700;
-    line-height: 1.2;
 }
 .texto h3{
     font-size: 32px;
@@ -104,7 +94,7 @@ section{
     top: 0;
     left: 0;
     inset: 0;
-    background: linear-gradient(45deg,#1564c4, #20b0e8, #C7F002);
+    background: linear-gradient(45deg, #f06, #3cf, #f06);
     background-size: 200%;
     background-position: 0 0;
     filter: blur(5px);
@@ -121,60 +111,24 @@ section{
     top: 0;
     left: 0;
     inset: 0;
-    background: linear-gradient(45deg,#1564c4, #20b0e8, #C7F002);
+    background: linear-gradient(45deg, #f06, #3cf, #f06);
     background-position: 0 0;
     background-size: 200%;
     z-index: -1;
     border-radius: 40px;
+    
     transition: .5s ease;
 }
 .btn:hover::after{
     background-position: 100% 0;
 }
 
-.icones a {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    background: linear-gradient(45deg,#1564c4, #20b0e8, #C7F002);
-    border-radius: 50%;
-    font-size: 20px;
-    color: #fff;
-    text-decoration: none;
-    margin: 20px 0;
-    z-index: 1;  
-}
-.icones a::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(45deg, #1564c4, #20b0e8, #C7F002);;
-    border-radius: 50%;
-    z-index: -1;
-    transition: .5s ease;
-}
-.icones a:hover::before{
-    filter: blur(5px);
-}
-.icones a::after{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #0c1022;
-    border-radius: 50%;
-    transform: scale(.88);
-    z-index: -1;
-    transition: .5s ease;
-}
-.icones a:hover::after{
-    transform: scale(0);
+.imagem > img{
+    width: 400px;
+    height: 600px;
 }
 
+<<<<<<< HEAD
 .home-img{
     width: 410px;
     height: 410px;
@@ -262,3 +216,9 @@ section{
     }
 }
 
+=======
+footer {
+    color: aliceblue;
+    text-align: center;
+}
+>>>>>>> parent of 3d95d3e (finalização da tela principal)
