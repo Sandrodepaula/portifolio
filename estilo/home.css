@@ -249,20 +249,20 @@ section{
 @media screen and (max-width: 750px){
     section{
         flex-direction: column;
-        justify-content: none;
+        justify-content: start;
     }
     .home-img{
-        margin-top: 50px;
+        margin-top: 30px;
     }
     .texto{
         text-align: center;
     }
     .texto h1{
         font-size: 38px;
-        line-height: 1.8;
     }
     .texto h3{
         font-size: 25px;
+        margin-top: 5px;
     }
     .icones{
         justify-content: center;
