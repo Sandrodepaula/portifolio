@@ -1,13 +1,8 @@
-@charset "UTF-8";
-
-@import url('https://fonts.googleapis.com/css2? family= Rubik:wght@400;700 & display=swap');
-:root {
-    --fonte-normal: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-padrão: 'Rubik', sans-serif;
-}
 
 *{
-    font-family: var(--fonte-padrão);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -61,8 +56,6 @@ header{
 section{
     width: 100%;
     height: 100vh;
-    justify-content: space-between;
-    align-items: center;
     padding: 70px 10% 0;
 }
 
@@ -73,16 +66,25 @@ section h1{
 .banners{
     margin-top: 30px;
     display: flex;
-    align-items: center;
 }
 
-.banners a {
-    margin-left: 10px;
-}
-
-img{
+.banners img{
     width: 100%;
     height: 250px;
+    padding: 10px 2%;
+}
+
+p{
+    width: 400px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+.btn-voltar a{
+    color: #fff;
+    margin-left: 5px;
 }
 
 
