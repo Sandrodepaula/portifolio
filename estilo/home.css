@@ -1,8 +1,6 @@
 
 *{
     font-family: 'Montserrat', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Rubik', sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -52,7 +50,7 @@ header{
     animation-delay: calc(.2s * var(--i));
 }
 
-section{
+.perfil{
     width: 100%;
     height: 100vh;
     display: flex;
@@ -222,6 +220,62 @@ section{
     object-fit: cover;
 }
 
+/*Projetos*/
+.projetos{
+    background: #121931;
+    width: 100%;
+    height: 60vh;
+    display: block;    
+    text-align: center;
+}
+
+
+.banners{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.banners img{
+    width: 100%;
+    height: 250px;
+    padding: 10px 2%;
+}
+
+.banners a{
+    text-decoration: none;
+}
+
+.banners p{
+    width: 400px;
+    margin-top: 10px;
+    color: #fff;
+    padding: 10px;
+}
+
+/*Sobre*/
+
+.bio h1{
+    text-align: center;
+    margin: 10px;
+}
+
+.bio p{
+    text-align: center;
+    max-width: 700px;
+    padding: 5px 2%;
+    
+
+}
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1110px){
     .home-img{
         width: 250px;
@@ -240,7 +294,7 @@ section{
         height: 250px;
     }
 }
-@media screen and (max-width: 750px){
+@media screen and (max-width: 760px){
     section{
         flex-direction: column;
         justify-content: start;
@@ -260,6 +314,19 @@ section{
     }
     .icones{
         justify-content: center;
+    }
+    .projetos{
+        margin-top: 40px;
+        height: 100vh;
+    }
+    .banners{
+        flex-direction: column;
+    }
+    .banners img{
+        width: 60%;
+    }
+    .banners p{
+        margin: 10px 20%;
     }
 
 }
