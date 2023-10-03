@@ -52,7 +52,7 @@ header{
 
 .perfil{
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -231,14 +231,18 @@ header{
 
 
 .banners{
-    margin-top: 30px;
+    
+    margin: 20px;
     display: flex;
     justify-content: center;
+    
 }
 
 .banners img{
+    max-width: 300px;
     width: 100%;
-    height: 250px;
+    height: 200px;
+    border-radius: 20px;
     padding: 10px 2%;
 }
 
@@ -251,6 +255,11 @@ header{
     margin-top: 10px;
     color: #fff;
     padding: 10px;
+}
+.container{
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.527);
+    border-radius: 10px;
+    margin: 10px;
 }
 
 /*Sobre*/
