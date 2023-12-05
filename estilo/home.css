@@ -324,9 +324,9 @@ li{
     #menu{
         display: none;
     }
-
+    /*botão mobile*/
     #nav.active #menu{
-        display: flex;
+        display: block;
         flex-direction: column;
         position: absolute;
         width: 80%;
@@ -337,7 +337,7 @@ li{
         background:#0c1022 ;
         border: 3px solid #1564c4;
         animation:slideTop .5s ease forwards;
-        gap: .5rem;
+        
     }
 
     #menu a{
@@ -352,7 +352,40 @@ li{
         background: none;
         color: #fff;
         font-weight: 600;
+        gap: .5rem;
+        align-items: center;
     }
+
+    #hamburguer{
+        border-top: 2px solid;
+        width: 20px;
+    }
+
+    #hamburguer::after, #hamburguer::before {
+        content: '';
+        display: block;
+        background: currentColor;
+        width: 20px;
+        height: 2px;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+
+    } 
+
+    #nav.active #hamburguer{
+        border-top-color: transparent;
+    }
+
+    #nav.active #hamburguer::before{
+        transform: rotate(135deg);
+    }
+
+    #nav.active #hamburguer::after{
+         transform: rotate(-135deg);
+         top:-7px;
+    }
+    
     .home-img{
         margin-top: 30px;
     }
