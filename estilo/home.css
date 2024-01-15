@@ -316,6 +316,7 @@ li{
     section{
         flex-direction: column;
         justify-content: start;
+        height: 100vh;
     }
    
     #menu{
@@ -415,6 +416,13 @@ li{
         width: 62%;
     }
 
+}
+
+@media screen and (max-width: 610px){
+    .bio{
+        position: relative;
+        top: 20%;
+    }
 }
     
 
