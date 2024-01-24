@@ -423,8 +423,45 @@ li{
         position: relative;
         top: 20%;
     }
-}
+}   
     
+@media screen and (max-width: 360px) {
+    .icones a{
+        width: 30px;
+        height: 30px;
+        margin: 10px;
+    }
+
+    .btn{
+        width: 150px;
+        height: 30px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    
+    .projetos{
+        height: 125vh;
+        width: 98vw;
+    }
+
+    .bio{
+        top: 5%;
+    }
+    .bio p{
+        max-width: 80%;
+    }
+
+    .banners p{
+        margin: 10px 0;
+        padding: 5px;
+        width: 100%;
+    }
+    .banners img{
+        width: 90%;
+    }
+    
+}
+
 
 @keyframes slideTop {
     0% {
